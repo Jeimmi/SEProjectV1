@@ -5,8 +5,8 @@ public class Game {
 	Player p2;
 	Player p3;
 	
-	BPool buildingTiles;
-	PPool productionTiles;
+	BuildingPool buildingTiles;
+	ProductionPool productionTiles;
 	ArrayList<ProductionTile> pList = new ArrayList<ProductionTile>();
 	
 	public void initialize(){

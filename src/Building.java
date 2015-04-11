@@ -36,8 +36,7 @@ public class Building {
 	}
 	
 	public Building reduce(int n){
-		Building temp = new Building(this.cost[0], this.cost[1], 
-				this.cost[2], this.cost[3]);
+		Building temp = new Building(this.cost[0], this.cost[1], this.cost[2], this.cost[3]);
 		temp.cost[n] = temp.cost[n] - 1;
 		return temp;
 	}
